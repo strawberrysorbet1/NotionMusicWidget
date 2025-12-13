@@ -5,8 +5,8 @@
   <title>Notion Music Widget</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Link your CSS -->
-  <link rel="stylesheet" href="css/style.css" />
+  <!-- CSS (root-level file) -->
+  <link rel="stylesheet" href="css.css" />
 </head>
 
 <body>
@@ -27,12 +27,16 @@
     <ul class="playlist" id="playlist"></ul>
   </div>
 
-  <!-- Your JS -->
-  <script src="jss/script.js"></script>
+  <!-- JS (root-level file) -->
+  <script src="js.js"></script>
 
   <!-- Playlist data -->
   <script>
     const tracks = [
+      {
+        title: "Aagay Hi Aagay",
+        src: "https://cdn.jsdelivr.net/gh/strawberrysorbet1/NotionMusicWidget@main/Aagay%20Hi%20Aagay.mp3"
+      },
       {
         title: "American Love",
         src: "https://cdn.jsdelivr.net/gh/strawberrysorbet1/NotionMusicWidget@main/American%20Love.mp3"
@@ -48,10 +52,6 @@
       {
         title: "The Jungle Giants – She's A Riot",
         src: "https://cdn.jsdelivr.net/gh/strawberrysorbet1/NotionMusicWidget@main/The%20Jungle%20Giants%20-%20She's%20A%20Riot%20(Official%20Audio).mp3"
-      },
-      {
-        title: "Aagay Hi Aagay",
-        src: "https://cdn.jsdelivr.net/gh/strawberrysorbet1/NotionMusicWidget@main/Aagay%20Hi%20Aagay.mp3"
       }
     ];
   </script>
