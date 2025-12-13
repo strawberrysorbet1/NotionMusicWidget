@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Notion Music Widget</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Link your CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="player-container">
+    <h1 class="player-title">🎧 Notion Music Widget</h1>
+
+    <audio id="audioPlayer" controls preload="metadata">
+      <source id="audioSource" src="" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <div class="controls">
+      <button onclick="prevTrack()">⏮</button>
+      <button onclick="playPause()">▶ / ⏸</button>
+      <button onclick="nextTrack()">⏭</button>
+    </div>
+
+    <ul class="playlist" id="playlist"></ul>
+  </div>
+
+  <!-- Your JS -->
+  <script src="jss/script.js"></script>
+
+  <!-- Playlist data -->
+  <script>
+    const tracks = [
+      {
+        title: "American Love",
+        src: "https://cdn.jsdelivr.net/gh/strawberrysorbet1/NotionMusicWidget@main/American%20Love.mp3"
+      },
+      {
+        title: "Bad Dream Baby",
+        src: "https://cdn.jsdelivr.net/gh/strawberrysorbet1/NotionMusicWidget@main/Bad%20Dream%20Baby.mp3"
+      },
+      {
+        title: "Hippo Campus – buttercup",
+        src: "https://cdn.jsdelivr.net/gh/strawberrysorbet1/NotionMusicWidget@main/Hippo%20Campus%20-%20buttercup%20(Official%20Video).mp3"
+      },
+      {
+        title: "The Jungle Giants – She's A Riot",
+        src: "https://cdn.jsdelivr.net/gh/strawberrysorbet1/NotionMusicWidget@main/The%20Jungle%20Giants%20-%20She's%20A%20Riot%20(Official%20Audio).mp3"
+      },
+      {
+        title: "Aagay Hi Aagay",
+        src: "https://cdn.jsdelivr.net/gh/strawberrysorbet1/NotionMusicWidget@main/Aagay%20Hi%20Aagay.mp3"
+      }
+    ];
+  </script>
+</body>
+</html>
