@@ -15,26 +15,26 @@ $(function () {
   const playPreviousTrackButton = $("#play-previous");
   const playNextTrackButton = $("#play-next");
   const albums = [
-    "Me & You",
-    "Dawn",
-    "Electro Boy",
-    "Home",
-    "Proxy (Original Mix)"
+    "American Love",
+    "She's a Riot",
+    "Buttercup",
+    "Aagay Hi Aagay",
+    "Bad Dream Baby"
   ];
   const trackNames = [
-    "Alex Skrindo - Me & You",
-    "Skylike - Dawn",
-    "Kaaze - Electro Boy",
-    "Jordan Schor - Home",
-    "Martin Garrix - Proxy"
+    "Smallpools",
+    "The Jungle Giants",
+    "Hippo Campus",
+    "Karavan",
+    "Hippo Campus"
   ];
   const albumArtworks = ["_1", "_2", "_3", "_4", "_5"];
   const trackUrl = [
-    "https://singhimalaya.github.io/Codepen/assets/music/1.mp3",
-    "https://singhimalaya.github.io/Codepen/assets/music/2.mp3",
-    "https://singhimalaya.github.io/Codepen/assets/music/3.mp3",
-    "https://singhimalaya.github.io/Codepen/assets/music/4.mp3",
-    "https://singhimalaya.github.io/Codepen/assets/music/5.mp3"
+    "https://cdn.jsdelivr.net/gh/strawberrysorbet1/NotionMusicWidget@main/American%20Love.mp3",
+    "https://cdn.jsdelivr.net/gh/strawberrysorbet1/NotionMusicWidget@main/The%20Jungle%20Giants%20-%20She's%20A%20Riot%20(Official%20Audio).mp3",
+    "https://cdn.jsdelivr.net/gh/strawberrysorbet1/NotionMusicWidget@main/Hippo%20Campus%20-%20buttercup%20(Official%20Video).mp3",
+    "https://cdn.jsdelivr.net/gh/strawberrysorbet1/NotionMusicWidget@main/Aagay%20Hi%20Aagay.mp3",
+    "https://cdn.jsdelivr.net/gh/strawberrysorbet1/NotionMusicWidget@main/Bad%20Dream%20Baby.mp3"
   ];
 
   let bgArtworkUrl,
