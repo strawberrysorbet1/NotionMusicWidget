@@ -7,7 +7,7 @@
 
 body {
   margin: 0;
-  background-color: #f1f9f9;
+  background-color: #fff;
 }
 *:focus {
   outline: none;
@@ -15,7 +15,7 @@ body {
 
 body {
   margin: 0;
-  background-color: #ffeff5;
+  background-color: #fff;
 }
 
 #player-container {
@@ -27,6 +27,8 @@ body {
   height: 100px;
   margin: -4px auto;
 }
+
+/*
 
 #player-bg-artwork {
   position: fixed;
@@ -53,6 +55,8 @@ body {
   opacity: 0.5;
   z-index: 2;
 }
+
+*/
 
 #player {
   position: relative;
